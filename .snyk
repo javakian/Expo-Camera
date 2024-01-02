@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - expo > babel-preset-expo > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2024-01-02T05:23:17.508Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > metro-react-native-babel-preset >
+          @babel/plugin-proposal-class-properties >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-replace-supers > @babel/traverse > lodash
